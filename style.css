@@ -3,12 +3,13 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background: url(bg.jpg) no-repeat;
+	background: url(bg.jpg) repeat;
 	background-size: cover;
 }
 .login-box{
 	margin:auto;
-	width:320px;
+	width:60%;
+	float: left;
 	position:absolute;
 	top:50%;
 	left:50%;
@@ -49,7 +50,7 @@ body{
 
 
 #tablepart {
-  margin-top: 700px;
+  margin-top: 400%;
   margin-bottom: 50px;
   background-color: rgba(220,220,220,0.8);
   text-align: center; 
@@ -89,3 +90,22 @@ body{
   cursor: pointer;
   margin: 12px 0;
 }
+
+@media screen and (min-width: 800px) {
+  #tablepart {
+  margin-top: 70%;
+}
+}
+
+@media screen and (min-width: 400px) {
+  #tablepart {
+  margin-top: 150%;
+}
+}
+
+@media screen and (min-width: 1300px) {
+  #tablepart {
+  margin-top: 50%;
+}
+}
+
