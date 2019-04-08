@@ -1,0 +1,2 @@
+# studyMap
+studyMap will be an invaluable companion web-app to help and guide a student during his/her exam preparation. It will help the student to create a study schedule by taking two factors into account:  The number of days left for the exam. The individual difficulty rating for each subject.   After considering these factors, the web-app uses an efficient algorithm to make a time-table that is tailor-made for each student.
