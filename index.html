@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>StudyMap</title>
+	<link rel="stylesheet" href="stylesheets/index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="introlines">
+	<div align="">
+		<img src="images/sMlogo.png" id="sml">
+		<a href="https://www.codingstudio.club"><img src="images/black_png.png" id="csl"></a>
+	</div>
+	
+</div>
+
+<div class="imgslide">
+	<h3 align="center" id="inh3">Follow the instructions below to generate a schedule</h3>
+	<div class="slideshow-container">
+	  <!-- Full-width images with number and caption text -->
+	 <div class="mySlides fade">
+	    <img src="images/img1.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides fade">
+	    <img src="images/img2.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides fade">
+	    <img src="images/img3.png" style="width:100%">
+	  </div>
+
+	  <!-- Next and previous buttons -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<br>
+</div>
+
+
+
+
+	<div class="login-box">
+
+	<h2>Enter your details here</h2>
+	<form>
+		<div class="textbox">
+			<table >
+					<tr>
+						<td>
+							<strong>Enter your year:</strong>
+						</td>
+						<td>
+							<input type="number" min="1" max="4" required placeholder="Year" id="year">
+						</td>
+					</tr>
+			</table>
+		</div>
+		<div class="textbox">
+			<table >
+					<tr>
+						<td>
+							<strong>Enter your semester:</strong>
+						</td>
+						<td>
+							<input type="number" min="1" max="2" required placeholder="Sem" name="" id="sem">
+						</td>
+					</tr>
+			</table>
+		</div>
+	</form>
+		<br><a href="form.html"><button onclick="getIndexVars()" class="btn" id="btnb">Submit</button></a>
+
+	
+
+
+<script type="text/javascript" src="scripts/index.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.14.2/cpexcel.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.14.2/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.14.2/xlsx.full.min.map"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.14.2/xlsx.js"></script>
+<script src="https://fastcdn.org/FileSaver.js/1.1.20151003/FileSaver.min.js"></script> -->
+</body>
+</html>

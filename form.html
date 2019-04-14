@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>StudyMap</title>
+<link rel="stylesheet" href="stylesheets/form.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="introlines">
+	<div align="">
+		<img src="images/sMlogo.png" id="sml">
+		<a href="https://www.codingstudio.club"><img src="images/black_png.png" id="csl"></a>
+	</div>
+	
+</div>
+<div class="login-box">
+<h2 style="border-bottom: 2px solid #4caf50;">Enter your details here</h2>
+<form>
+	<div class="textbox">
+		<table >
+				<tr>
+					<td>
+						<strong><h4>Days left for exam:</h4></strong>
+					</td>
+					<td>
+						<input type="text" placeholder="Enter no. of days" name="" id="nod">
+					</td>
+				</tr>
+		</table>
+	</div>
+	<div class="textbox">
+	<table>		
+		<tr>
+			<td style="border-bottom: 3px solid #4caf50; width: 90%;">
+				<strong><h3>Subject Priorities:</h3></strong>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div>
+					<h4 id="sub1" class="subjnames"></h4>
+				</div>
+			</td>
+			<td>
+				<select id="s1">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<h4 id="sub2" class="subjnames"></h4>
+			</td>
+			<td>
+				<select id="s2">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<h4 id="sub3" class="subjnames"></h4>
+			</td>
+			<td>
+				<select id="s3">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<h4 id="sub4" class="subjnames"></h4>
+			</td>
+			<td>
+				<select id="s4">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<h4 id="sub5" class="subjnames"></h4>
+			</td>
+			<td>
+				<select id="s5">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>				
+				</select>
+			</td>
+		</tr>
+	</table>
+	</div>
+</form>
+	<br><button onclick="getVars()" class="btn" id="btnb">Submit</button>
+	<div id="demo" class="boxtext"></div>
+</div>
+
+
+<div id="tablec">
+	<div id="">
+		<table id="tablepart"></table>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="scripts/form.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.22/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+
+</body>
+</html>
