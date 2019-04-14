@@ -1,13 +1,13 @@
 var subjectdb = [
 
-    ['M1','EP','EC','ENGLISH','BEEE','EM'],
+    ['M1','EP','EC','BEEE','EM'],
     ['M2','M3','EG','CP','EP-2'],
     ['M4','DSC++','MFCS','DLD','OOPS'],
     ['BEFA','CO','FLAT','OS','DBMS'],
-    ['DAA','DCCN','SE','ELECTIVE'], 
+    ['DAA','DCCN','SE','ELECTIVE','FoM'], 
     ['CNS','CD','WT','PROF. ELECTIVE', 'OPEN ELECTIVE'], 
-    ['DM','ELECTIVE','IOMP','SEMINAR'], 
-    ['ELECTIVE 3', 'ELECTIVE 4', 'MAJOR PROJECT']
+    ['DM','PoPL','PROF. ELECTIVE 2','PROF. ELECTIVE 3','PROF. ELECTIVE 4'], 
+    ['OPEN ELECTIVE', 'PROF. ELECTIVE 5','PROF. ELECTIVE 6', 'MAJOR PROJECT','MAJOR PROJECT']
  
 ];
 var x = localStorage.getItem("yearval");
