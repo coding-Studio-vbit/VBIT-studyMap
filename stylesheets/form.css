@@ -1,0 +1,143 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(../images/bg.jpg);
+	background-size: cover;
+}
+
+.boxtext {
+  border: 1px solid black;
+  padding: 5px;
+  width: 42%;
+  text-align: center;
+}
+
+.login-box{
+	margin:auto;
+	width:60%;
+	float: left;
+	position:absolute;
+	left:40%;
+	color: black;
+}
+
+#test {
+ width: 100%;
+  background-color: #4caf50;
+  border: 2px solid #4caf50;
+  color: black;
+  font-size: 18px;
+  cursor: black;
+  cursor: pointer;
+}
+
+.login-box h2{
+    float:left;
+    margin-bottom: 20px;
+}
+.textbox{
+  width:100%;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.subjnames {
+  margin-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.subjbline {
+
+   border: 1px solid #000;
+}
+
+.introlines {
+  text-align: left;
+  background-color: rgba(75,156,56,0.8);
+}
+
+#sml{
+  width: 20%;
+  margin-left:4%;
+}
+
+#csl{
+  width: 9%;
+  margin-right:4%;
+  float: right;
+}
+
+
+#tablepart {
+  margin-top: 400%;
+  margin-bottom: 50px;
+  background-color: rgba(220,220,220,0.8);
+  text-align: center; 
+  display: inline-block;
+  width: 50%;
+}
+
+#tablec {
+  text-align: center;
+}
+
+.text i{
+  width:28px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: 1px solid #fff;
+  outline: none;
+  background-color: rgba(10,10,10,0.2);
+  text-align: center;
+  font-size: 18px;
+  width: 70%;
+  margin-left: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+  margin: 0 10px;
+}
+
+.textbox input::placeholder{
+  color: #191919;
+  font-style: italic;
+}
+
+
+.btn{
+  width: 45%;
+  background-color: #4caf50;
+  border: 2px solid #4caf50;
+  color: black;
+  padding: 5px;
+  font-size: 18px;
+  cursor: black;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+
+@media screen and (min-width: 800px) {
+  #tablepart {
+  margin-top: 70%;
+}
+}
+
+@media screen and (min-width: 400px) {
+  #tablepart {
+  margin-top: 150%;
+}
+}
+
+@media screen and (min-width: 1300px) {
+  #tablepart {
+  margin-top: 50%;
+}
+}
+
