@@ -1,5 +1,6 @@
 # studyMap
 Check the application at https://studymap.codingstudio.club
+
 Detailed Description about the Application:
 studyMap will be an invaluable companion web-app to help and guide a student during his/her exam preparation. It will help the student to create a study schedule by taking two factors into account:
 
